@@ -1,0 +1,16 @@
+2023-01-23 23:30:06,011 INFO o.e.c.ControllerMain [main] Программа запущена
+2023-01-23 23:31:51,004 INFO o.e.c.Log4j2ExampleApp [main] Log4j2ExampleApp started.
+2023-01-23 23:31:51,006 WARN o.e.c.Log4j2ExampleApp [main] Something to warn
+2023-01-23 23:31:51,007 ERROR o.e.c.Log4j2ExampleApp [main] Something failed.
+2023-01-23 23:31:51,007 ERROR o.e.c.Log4j2ExampleApp [main] Error message
+java.nio.file.NoSuchFileException: \file\does\not\exist
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?]
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?]
+	at sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
+	at java.nio.file.Files.readAllBytes(Files.java:3287) ~[?:?]
+	at org.example.controller.Log4j2ExampleApp.main1(Log4j2ExampleApp.java:19) [classes/:?]
+	at org.example.Main.main(Main.java:14) [classes/:?]
+2023-01-23 23:35:10,756 INFO o.e.c.ControllerMain [main] Программа запущена
